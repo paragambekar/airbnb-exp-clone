@@ -15,15 +15,14 @@ export default function App(){
 
             <Card 
                 key = {item.id}
-                title = {item.title}
-                img = {item.coverImg}
-                // img = {`${Images}/item.coverImg`}
-                // img = {./images/{item.coverImg}}
-                rating = {item.stats.rating}
-                reviewCount = {item.stats.reviewCount}
-                price = {item.price}
-                location = "Online"
-                openspots = {item.openSpots}
+                item = {item}
+                // title = {item.title}
+                // img = {item.coverImg}
+                // rating = {item.stats.rating}
+                // reviewCount = {item.stats.reviewCount}
+                // price = {item.price}
+                // location = "Online"
+                // openspots = {item.openSpots}
             />
         )
     });
